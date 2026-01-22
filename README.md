@@ -1,5 +1,5 @@
 # CM-Game-Team
-Ini adalah git kelompok game team codemaster 
+Ini adalah repo kelompok game team codemaster 
 
 NOTE= REPO INI ADALAH TEMPAT DIMANA KITA BISA SHARE DAN UPDATE KODE GAME KITA
 
