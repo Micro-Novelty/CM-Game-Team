@@ -1,6 +1,9 @@
 # CM-Game-Team
 Ini adalah repo kelompok game team codemaster 
 
+○ Jenis Game yang kita buat adalah:
+Arena PVB (player vs bot) 
+
 # ilustrasi game pixel
 <img width="3456" height="1790" alt="image" src="https://github.com/user-attachments/assets/f8dae5ec-9717-49ff-a8da-be585f44c2e4" />
 
