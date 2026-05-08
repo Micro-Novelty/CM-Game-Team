@@ -25,7 +25,7 @@ jobs:
       - name: Build .so file
         run: |
           rm -rf build/ *.so *.c
-          python setup.py build_ext --inplace
+          python linux_setup.py build_ext --inplace
 
       - name: Upload ARM64 .so artifact
         uses: actions/upload-artifact@v4
