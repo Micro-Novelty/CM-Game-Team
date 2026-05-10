@@ -4885,11 +4885,6 @@ class IntegratedPipeline:
 
 
 
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 554833c (initial-commit)
     def mlp_predict(self, X):
         if isinstance(X, str) or isinstance(X[0], str):
             self.initialize_fitting(X)            
