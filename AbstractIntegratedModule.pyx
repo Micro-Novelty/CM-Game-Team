@@ -4799,11 +4799,7 @@ class IntegratedPipeline:
         if not self.autonomous:
             program = input('[=] Pick your choice [1/2] (choose N to skip): ')
 
-<<<<<<< HEAD
-        if self.autonomous or program == '1':
-=======
         if program == '1' or self.autonomous:
->>>>>>> 554833c (initial-commit)
             print('=== IN-DEVICE PEER REQUEST INITIATED ===')
             probs = self.distribution._handle_peer_agent_request(probs, self_attn_weights, input_ids, type='DevicePeer', agreement=agreement)
             if self.distribution.query_node.peer_trust < self.confidence_threshold:
@@ -4815,11 +4811,7 @@ class IntegratedPipeline:
                     self.external_peer_enabled = bool(alive_agents)
                     self.autonomous = False
 
-<<<<<<< HEAD
-        elif self.external_peer_enabled and program == '2':
-=======
         elif program == '2' or self.external_peer_enabled:
->>>>>>> 554833c (initial-commit)
             print('=== EXTERNAL PEER REQUEST INITIATED ===')
             ip_number = input('[=] Insert IP Number to connect with peer: ')
             if self.role_bot is None:
