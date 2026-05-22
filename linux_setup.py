@@ -25,7 +25,10 @@ setup(
         extensions,
         compiler_directives={
             'language_level': 3,
-            'boundscheck': False,  # Disable for speed
+            'boundscheck': True,  # Disable for speed
+            'wraparound=True,
+            'initializedcheck=True,
+            'nonecheck=True,
         }
     ),
     include_dirs=[np.get_include()],
