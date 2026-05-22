@@ -10,7 +10,7 @@ extensions = [
         "AbstractIntegratedModule",  # Module name (import awe_mlp)
         sources=["AbstractIntegratedModule.pyx"],  # Your Cython source file
         include_dirs=[np.get_include()],
-        extra_compile_args=['-O3', '-march=native'],  # Optimizations
+        extra_compile_args=['-O2', '-march=native'],  # Optimizations
         extra_link_args=[]
     ),
     # Add more extensions if you have multiple .pyx files
